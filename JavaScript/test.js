@@ -12,43 +12,43 @@ let number = generateRandomNumber();
 let result;
 if (number == 0){
 result = '3';
-return ("5 - 2");
+return ("5 - 2= ");
 }
 else if(number == 1){
 result = '2';
-return ("10 - 8");
+return ("10 - 8= ");
 }
 else if(number == 2){
 result = '4';
-return ("12 - 8");
+return ("12 - 8= ");
 }
 else if(number == 3){
 result = '7';
-return ("15 - 8");
+return ("15 - 8= ");
 }
 else if(number == 4){
 result = '12';
-return ("20 - 8");
+return ("20 - 8= ");
 }
 else if(number == 5){
 result = '1';
-return ("10 - 9");
+return ("10 - 9= ");
 }
 else if(number == 6){
 result = '12';
-return ("30 -18");
+return ("30 -18= ");
 }
 else if(number == 7){
 result = '17';
-return ("45 - 28");
+return ("45 - 28= ");
 }
 else if(number == 8){
 result = '7';
-return ("25 - 18");
+return ("25 - 1= 8");
 }
 else if(number == 9){
 result = '21';
-return ("40 - 19");
+return ("40 - 19= ");
 }
 
 }
@@ -110,7 +110,7 @@ quest++;
 sum+=input;
 if( input != generateAnswers());
 while(count<2){
-input = parseInt(prompt(question,+ "="));
+input = parseInt(prompt(question,"="));
 count++;
 }}
 console.log(sum);
